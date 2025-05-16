@@ -1,0 +1,115 @@
+body{
+  
+    font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+      
+      
+}
+.container{
+    flex: 1;
+}
+.navbar {
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.fa-compass {
+    color: red;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+/* Footer */
+footer{
+    background-color: antiquewhite;
+}
+
+
+.f-info-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+
+}
+
+
+.f-info-socials i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.f-info {
+    display: flex;
+    height: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+}
+/* cards */
+.listing-card{
+  border: none !important;
+  margin-bottom: 2rem !important ;
+ 
+}
+.card-img-top{
+    
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-text p{
+    font-weight: 400 !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+
+.listing-links{
+    text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/* Show Image  */
+.show-image{
+    height: 30vh;
+}
+/* Edit Page  */
+.edit-img img{
+  height: 200px; 
+  width: 300px;
+}
